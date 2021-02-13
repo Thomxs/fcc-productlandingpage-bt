@@ -30,7 +30,7 @@ body {
 #header {
   position: fixed;
   background-color: black;
-  width: 100%; 
+  width: 100%;
   height: 50px;
   top: 0;
   left: 0;
@@ -51,7 +51,7 @@ nav {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 20%;
+  width: 40%;
 }
 
 .nav-link {
@@ -101,7 +101,7 @@ main {
 
 .description {
   color: #696563;
-  font-size: 2em;
+  font-size: 2rem;
   margin: 0;
   margin-left: 10px;
 }
@@ -159,10 +159,11 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   flex-wrap: wrap;
   background: #696563;
   width: 100%;
-  height: 100px;
+  height: auto;
   margin-top: 60px;
   padding: 20px;
 }
@@ -186,7 +187,7 @@ main {
 
 .labelemail {
   color: white;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   display: block;
   text-align: right;
 }
@@ -223,7 +224,7 @@ main {
     max-width: 50%;
   }
   .description {
-    font-size: 1.3rem;
+    font-size: 1.7rem;
   }
   #bloctitrelogo {
     margin-top: 200px;
@@ -247,6 +248,44 @@ main {
   }
   #bloctitrelogo {
     margin-top: 185px;
+  }
+
+  #apropos {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .aproposbloc {
+    width: 70%;
+  }
+
+  #footer {
+    flex-direction: column;
+    justify-content: center;
+  }
+  #reseaux {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+  }
+
+  .socialmedia {
+    height: 40px;
+    margin-right: 20px;
+  }
+
+  .labelemail {
+    color: white;
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  .btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    width: 180px;
   }
 }
 
