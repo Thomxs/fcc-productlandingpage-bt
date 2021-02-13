@@ -9,14 +9,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Varela&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
-    <link rel="icon" href="imgs/logocrop.jpg" />
+    <link rel="icon" href="imgs/logob.svg" />
 
 </head>
 
 <body>
 
     <header id="header">
-        <img src="imgs/logocrop.jpg" id="header-img" alt="Logo">
+        <img src="imgs/logocrop.svg" id="header-img" alt="Logo">
         <nav id="nav-bar">
             <a href="#bloctitrelogo" class="nav-link">Accueil</a>
             <a href="#travaux" class="nav-link">Travaux</a>
@@ -25,7 +25,7 @@
     </header>
     <main>
         <div id="bloctitrelogo">
-            <img id="logoaccueil" src="imgs/logo.jpg">
+            <img id="logoaccueil" src="imgs/logotransparent.svg">
             <div id="bloctitre">
                 <h1 class="titre">Manon Delrieux</h1>
                 <p class="description">20 years old ceramist, teaching for <a class="atelierlien"
@@ -101,13 +101,18 @@
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowfullscreen></iframe>
 
-    <footer>
-        <div class="footer" id="footer">
+    <footer id="footer">
+        <div id="reseaux">
+            <img class="socialmedia" src="imgs/instab.svg" alt="insta">
+            <img class="socialmedia" src="imgs/linkedinb.svg" alt="socialmedia">
+            <img class="socialmedia" src="imgs/facebookb.svg" alt="insta">
+        </div>
+        <div id="newsletter">
             <form id="form" action="https://www.freecodecamp.com/email-submit">
-                <div>
-                    <label class="labelemail" for="email">Restez au courant</label>
-                    <input type="email" id="email" name="email" placeholder="entrez votre adresse email" required>
-                </div>
+
+                <label class="labelemail" for="email">Restez au courant</label>
+                <input type="email" id="email" name="email" placeholder="entrez votre adresse email" required>
+
                 <input id="submit" type="submit" value="s'inscrire" class="btn">
             </form>
         </div>
