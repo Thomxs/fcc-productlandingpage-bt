@@ -50,13 +50,14 @@ nav {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
-  width: 40%;
+  justify-content: flex-end;
+  width: 50%;
 }
 
 .nav-link {
   color: white;
   text-decoration: none;
+  padding-right: 8px;
   transition: 0.3s;
 }
 
